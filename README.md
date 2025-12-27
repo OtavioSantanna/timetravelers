@@ -1,6 +1,6 @@
 # 🏰 Jogo Educativo de História – Idade Média, Grécia e Egito
 
-Este é um **jogo educativo desenvolvido na Godot Engine**, com o objetivo de ensinar História de forma interativa e divertida.  
+Este é um **jogo educativo desenvolvido na Godot Engine**, foi desenvolvido em um projeto academico com o objetivo de ensinar História de forma interativa e divertida para alunos do ensino fundamental.
 O jogador avança por fases respondendo perguntas históricas, coletando moedas e desbloqueando novas civilizações.
 
 ---
@@ -8,9 +8,7 @@ O jogador avança por fases respondendo perguntas históricas, coletando moedas 
 ## 🌐 Jogue Online
 
 🎮 **Link do jogo:**  
-👉 https://SEU-LINK-AQUI
-
-_(Substitua pelo link do site onde o jogo está hospedado)_
+👉 (https://timetravelers.itch.io/timetravelers)
 
 ---
 
@@ -45,16 +43,6 @@ Cada fase apresenta desafios baseados em perguntas históricas. Ao concluir uma 
 
 ---
 
-## 🗂️ Fases do Jogo
-
-| Fase | Arquivo |
-|------|--------|
-| Idade Média | `game.tscn` |
-| Grécia Antiga | `grecia.tscn` |
-| Egito Antigo | `egito.tscn` |
-
----
-
 ## 🏁 Finais do Jogo
 
 - **Idade Média** → Desbloqueia a Grécia Antiga  
@@ -70,12 +58,3 @@ Cada fase apresenta desafios baseados em perguntas históricas. Ao concluir uma 
 - 🖼️ **AnimatedSprite2D**
 - 🔊 **AudioStreamPlayer**
 - 🌍 **Autoload (Global.gd)** para dados persistentes (moedas e progresso)
-
----
-
-## 📦 Sistema Global
-
-O jogo utiliza um script global para manter informações entre fases, como:
-
-```gdscript
-var moedas: int = 0
