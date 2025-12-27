@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://2sxxqlwi3ni8"
+path="res://.godot/imported/musica Idade Média (clima medieval).ogg-9196d30633f5e5fcddd5d10bd5d12993.oggvorbisstr"
+
+[deps]
+
+source_file="res://sprites/sons/musica Idade Média (clima medieval).ogg"
+dest_files=["res://.godot/imported/musica Idade Média (clima medieval).ogg-9196d30633f5e5fcddd5d10bd5d12993.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

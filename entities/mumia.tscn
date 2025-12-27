@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://c6ah6wr8otsp3"]
+
+[ext_resource type="Script" uid="uid://cb2hkn3cb6vfo" path="res://scripts/mumia.gd" id="1_1o6s2"]
+[ext_resource type="Texture2D" uid="uid://c5rr15nqnxsly" path="res://sprites/assets/mumia.png" id="3_1o6s2"]
+[ext_resource type="AudioStream" uid="uid://0ofb40t0q2uk" path="res://sprites/audios/Héroi-tomando-dano.wav" id="3_a2cm3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rqla4"]
+size = Vector2(66, 298.5)
+
+[node name="inimigo" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_1o6s2")
+
+[node name="confrontarea" type="CollisionShape2D" parent="."]
+position = Vector2(0, -121.75)
+shape = SubResource("RectangleShape2D_rqla4")
+debug_color = Color(0.6700384, 0, 0.19307324, 0.41960785)
+
+[node name="pergunta" type="Label" parent="."]
+offset_left = -96.0
+offset_top = -75.0
+offset_right = -95.0
+offset_bottom = -52.0
+theme_override_font_sizes/font_size = 5
+vertical_alignment = 1
+
+[node name="somMorte" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_a2cm3")
+
+[node name="Mumia" type="Sprite2D" parent="."]
+position = Vector2(1.1920929e-07, 16)
+scale = Vector2(0.359375, 0.37500003)
+texture = ExtResource("3_1o6s2")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

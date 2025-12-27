@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://m3ppc0kbb5op"
+path="res://.godot/imported/Héroi tomando dano.mp3-0ce321547adf6a3fbfc1de4e80e6e4e1.mp3str"
+
+[deps]
+
+source_file="res://sprites/sons/Héroi tomando dano.mp3"
+dest_files=["res://.godot/imported/Héroi tomando dano.mp3-0ce321547adf6a3fbfc1de4e80e6e4e1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

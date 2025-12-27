@@ -1,0 +1,54 @@
+[gd_scene load_steps=7 format=3 uid="uid://dveaxjojd0sk5"]
+
+[ext_resource type="Texture2D" uid="uid://dv1lib26et4fw" path="res://sprites/fim de jogo.jpg" id="1_3yio7"]
+[ext_resource type="Script" uid="uid://bronykxbjp1hj" path="res://scripts/fim_de_jogo.gd" id="1_miikf"]
+[ext_resource type="Texture2D" uid="uid://dmolfnmbhe8d3" path="res://sprites/sabio.png" id="2_hv6ay"]
+[ext_resource type="Texture2D" uid="uid://cqe22pxhau12s" path="res://sprites/parado.png" id="3_f53w1"]
+[ext_resource type="Texture2D" uid="uid://barhrdv6sbjio" path="res://sprites/Vitória.png" id="4_casoh"]
+[ext_resource type="Texture2D" uid="uid://bwtvn6v4lgws1" path="res://sprites/Common Pick-ups/Coin (16 x 16).png" id="6_irblu"]
+
+[node name="fim-de-jogo" type="Node2D"]
+script = ExtResource("1_miikf")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(145, 102)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_3yio7")
+
+[node name="Sabio" type="Sprite2D" parent="."]
+position = Vector2(247, 158)
+texture = ExtResource("2_hv6ay")
+
+[node name="Parado" type="Sprite2D" parent="."]
+position = Vector2(51, 157)
+texture = ExtResource("3_f53w1")
+flip_h = true
+
+[node name="Vitória" type="Sprite2D" parent="."]
+position = Vector2(149, 223)
+scale = Vector2(0.653125, 0.61944443)
+texture = ExtResource("4_casoh")
+
+[node name="newgame" type="TextureButton" parent="."]
+offset_left = 100.0
+offset_top = 115.0
+offset_right = 446.6667
+offset_bottom = 218.33334
+
+[node name="quit" type="TextureButton" parent="."]
+offset_left = 106.0
+offset_top = 157.0
+offset_right = 412.6667
+offset_bottom = 263.6667
+
+[node name="Coin(16X16)" type="Sprite2D" parent="."]
+position = Vector2(316, 25.000002)
+scale = Vector2(1.8906248, 2.1249998)
+texture = ExtResource("6_irblu")
+
+[node name="label_moedas" type="Label" parent="."]
+modulate = Color(0, 0, 0, 1)
+offset_left = 265.0
+offset_top = 15.0
+offset_right = 305.0
+offset_bottom = 38.0

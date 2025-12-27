@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://djfvs5kuc3jku"]
+
+[ext_resource type="Script" uid="uid://dl0o7708edq06" path="res://scripts/levelend.gd" id="1_4yein"]
+[ext_resource type="Texture2D" uid="uid://dmolfnmbhe8d3" path="res://sprites/sabio.png" id="2_s8uu7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_61535"]
+size = Vector2(36, 209)
+
+[node name="levelend" type="Area2D"]
+collision_layer = 16
+collision_mask = 2
+script = ExtResource("1_4yein")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-9, -2)
+shape = SubResource("RectangleShape2D_61535")
+debug_color = Color(0.997083, 0, 0.18307713, 0.41960785)
+
+[node name="Sabio" type="Sprite2D" parent="."]
+position = Vector2(1.4999995, -1.875001)
+scale = Vector2(0.390625, 0.43359372)
+texture = ExtResource("2_s8uu7")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -146.0
+offset_top = -74.0
+offset_right = -106.0
+offset_bottom = -51.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 8
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

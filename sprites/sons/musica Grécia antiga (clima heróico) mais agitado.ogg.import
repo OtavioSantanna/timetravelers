@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dtrxcljm2oxq8"
+path="res://.godot/imported/musica Grécia antiga (clima heróico) mais agitado.ogg-3b8b75861eb46584ddfcf76a31565f2d.oggvorbisstr"
+
+[deps]
+
+source_file="res://sprites/sons/musica Grécia antiga (clima heróico) mais agitado.ogg"
+dest_files=["res://.godot/imported/musica Grécia antiga (clima heróico) mais agitado.ogg-3b8b75861eb46584ddfcf76a31565f2d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

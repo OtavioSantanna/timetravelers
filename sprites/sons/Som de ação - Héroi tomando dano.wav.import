@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://heqdqm8rpj5w"
+path="res://.godot/imported/Som de ação - Héroi tomando dano.wav-077662735dd5d3c26f58a22077f9811d.sample"
+
+[deps]
+
+source_file="res://sprites/sons/Som de ação - Héroi tomando dano.wav"
+dest_files=["res://.godot/imported/Som de ação - Héroi tomando dano.wav-077662735dd5d3c26f58a22077f9811d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

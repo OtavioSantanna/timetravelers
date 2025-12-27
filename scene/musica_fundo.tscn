@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://w7w4oahw1qkl"]
+
+[ext_resource type="AudioStream" uid="uid://cu7rb5p5tie4j" path="res://sprites/audios/opção 2 music Idade Média (clima medieval).wav" id="1_38ft6"]
+
+[node name="musicaFundo" type="Node2D"]
+
+[node name="tocador" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_38ft6")
+autoplay = true

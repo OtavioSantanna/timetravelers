@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://xjp4wkrctwj3"]
+
+[ext_resource type="Script" uid="uid://5htbt5di0baa" path="res://scripts/morreu.gd" id="1_gecfj"]
+[ext_resource type="Texture2D" uid="uid://dyvqu3blubrau" path="res://sprites/morreu.png" id="1_wl6s4"]
+
+[node name="morreu" type="Node2D"]
+script = ExtResource("1_gecfj")
+
+[node name="Morreu" type="Sprite2D" parent="."]
+position = Vector2(143.5, 104.99999)
+scale = Vector2(0.2841797, 0.20312499)
+texture = ExtResource("1_wl6s4")
+
+[node name="newgame" type="TextureButton" parent="."]
+offset_left = 97.0
+offset_top = 135.0
+offset_right = 197.0
+offset_bottom = 157.0
+
+[node name="quit" type="TextureButton" parent="."]
+offset_left = 106.0
+offset_top = 165.0
+offset_right = 186.0
+offset_bottom = 187.0

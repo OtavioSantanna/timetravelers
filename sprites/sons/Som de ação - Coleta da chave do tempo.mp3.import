@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ch7afpu4f1ti"
+path="res://.godot/imported/Som de ação - Coleta da chave do tempo.mp3-c2c5695bf5e8b414f353d2ff5d9c0f63.mp3str"
+
+[deps]
+
+source_file="res://sprites/sons/Som de ação - Coleta da chave do tempo.mp3"
+dest_files=["res://.godot/imported/Som de ação - Coleta da chave do tempo.mp3-c2c5695bf5e8b414f353d2ff5d9c0f63.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
